@@ -1,0 +1,11 @@
+# 设置是否启用战斗标签系统
+# 启用时，进入战斗状态的飞行玩家将被取消飞行
+Enable combat tag: true
+# 设置战斗标签激活时发送的信息
+Combat tag message: '&c[EliteMobs] 战斗标签已激活！'
+# 设置/ag命令传送前是否有倒计时
+Enable adventurers guild teleport timer: true
+# 设置传送倒计时期间显示的动态信息
+Teleport time left: '&7[EM] 还剩 &a$time &7秒传送...'
+# 设置玩家在等待传送时移动导致的取消提示
+Teleport cancelled: '&7[EM] &c传送已中断！'

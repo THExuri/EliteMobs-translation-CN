@@ -1,0 +1,10 @@
+# 设置当使用未安装地牢的传送时显示的消息
+dungeonNotInstalledMessage: '&8[EliteMobs] &c地牢 $dungeonID &c未安装！此传送将无法使用！'
+# 设置当使用未安装地牢的虫洞时显示的消息
+defaultPortalMissingMessage: '&8[EliteMobs] &c这个传送门似乎无法通往任何地方！'
+# 设置是否使用虫洞的简化粒子模式。特别建议在允许基岩版客户端连接时开启
+reducedParticlesMode: true
+# 设置虫洞是否完全不使用粒子效果。不建议启用，但对于性能极差的基岩版客户端可能需要
+noParticlesMode: false
+# 设置玩家尝试使用虫洞但货币不足时发送的消息
+insufficientCurrencyForWormholeMessage: '&8[EliteMobs] &c货币不足！你需要 $amount 才能使用这个虫洞！'

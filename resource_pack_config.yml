@@ -1,0 +1,4 @@
+eliteMobsResourcePackEnabled: true
+forceResourcePack: false
+resourcePackPrompt: '[EliteMobs]强烈建议使用资源包！'
+resourcePackLink: https://www.magmaguy.com/downloads/elitemobs_resource_pack.zip

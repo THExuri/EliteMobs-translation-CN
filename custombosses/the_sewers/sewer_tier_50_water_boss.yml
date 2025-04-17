@@ -1,0 +1,33 @@
+bossType: MINIBOSS
+damageMultiplier: 1.4
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+entityType: ELDER_GUARDIAN
+followRange: 14
+healthMultiplier: 4.0
+isBaby: false
+isEnabled: true
+isRegionalBoss: true
+leashRadius: 17.0
+level: 31
+mainHand: BOW
+name: $minibossLevel &2Piranha King
+powers:
+- attack_gravity.yml
+- skeleton_tracking_arrow.yml
+- amount: 1
+  chance: 0.05
+  filename: sewer_tier_50_water_boss_reinforcement.yml
+  inheritAggro: true
+  inheritLevel: true
+  spawnNearby: false
+  summonType: ON_HIT
+spawnCooldown: 30
+spawnLocations:
+- em_sewer_maze,-269.82722138802404,77.78522040273157,-148.12939662724608,90.0,81.1117:1608615911620
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1

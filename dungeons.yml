@@ -1,0 +1,26 @@
+# 设置地下城中复活旗帜上方显示的文本
+dungeonRezInstructions: '&a点击复活！'
+# 设置显示玩家在地下城中剩余生命次数的文本! 可用占位符:
+# $amount - 剩余的生命次数
+dungeonLivesLeftText: '&c剩余$amount次生命！'
+# 设置以玩家身份加入地下城的文本! 可用占位符:
+# $dungeonName - 地下城名称
+joinDungeonAsPlayerText: '&f以玩家身份加入$dungeonName！'
+# 设置以旁观者身份加入地下城的文本! 可用占位符:
+# $dungeonName - 地下城名称
+joinDungeonAsSpectatorText: '&f以旁观者身份加入$dungeonName！'
+# 设置在副本地下城菜单物品描述中显示的标题
+# $difficulty 是地下城配置文件中难度名称的占位符
+instancedDungeonTitle: 开启$difficulty难度地下城！
+# 设置在副本地下城菜单物品描述中显示的说明
+# $dungeonName 是地下城配置文件中地下城名称的占位符
+instancedDungeonDescription:
+- '&f创建一个新的副本地下城'
+- $dungeonName &f供你和你的
+- '&f小伙伴挑战！'
+# 设置是否允许在副本内容中旁观
+allowSpectatorsInInstancedContent: true
+# 设置副本地下城完成时显示的信息
+instancedDungeonCompleteMessage: '[EliteMobs] 地下城已完成！将在2分钟后自毁！'
+# 设置副本地下城关闭时显示的信息
+instancedDungeonClosingInstanceMessage: '[EliteMobs] 正在关闭副本！'

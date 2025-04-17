@@ -1,0 +1,26 @@
+bossType: MINIBOSS
+damageMultiplier: 1.4
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+entityType: ILLUSIONER
+followRange: 14
+healthMultiplier: 4.0
+isBaby: false
+isEnabled: true
+isRegionalBoss: true
+leashRadius: 17
+level: 27
+mainHand: BOW
+name: $minibossLevel &2Shadow Archer
+powers:
+- movement_speed.yml
+- zombie_bloat.yml
+spawnCooldown: 30
+spawnLocations:
+- em_sewer_maze,-113.52902739347195,78.2,-147.96380529177705,9.900244,267.80365:1611044338231
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1

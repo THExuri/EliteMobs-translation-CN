@@ -1,0 +1,68 @@
+# 设置EliteMobs使用的语言文件
+# 请勿手动修改！应使用命令'/em language <languagefile>'进行安装
+language: chinese_simplified.yml
+# 设置EliteMobs生成的精英和Boss是否始终显示名称标签
+# 不推荐启用！
+alwaysShowEliteMobNameTags: false
+# 设置被动生物在合并前需要聚集的最小数量
+# 不要设为0！
+superMobStackAmount: 50
+# 阻止精英生物通过爆炸伤害被动生物
+preventEliteCreeperDamageToPassiveMobs: true
+# 设置EliteMobs是否使用标题提示玩家权限不足
+useTitlesForMissingPermissionMessages: true
+# 设置是否阻止将已命名生物转换为精英生物
+# 对插件兼容性非常重要
+preventEliteMobConversionOfNamedMobs: true
+# 设置是否转换带有自定义生成原因的怪物
+# 运行某些Boss插件时会自动设为true，无论配置文件中的值如何
+enableHighCompatibilityMode: false
+# 设置噩梦模式世界的精英生成加成
+nightmareWorldSpawnBonus: 0.5
+# 设置/em命令是否直接打开插件主状态菜单
+# 强烈推荐启用！
+emLeadsToStatusMenu: true
+# 设置运行特定命令（如/em wallet）是否跳转到集中化的/em状态菜单
+otherCommandsLeadToEMStatusMenu: true
+# 设置是否完成初始化配置
+# 请勿手动修改此值，应通过游戏内命令修改
+setupDoneV3: false
+# 设置精英生物是否阻止生成原版援军（如僵尸的援军特性）
+preventVanillaReinforcementsForEliteEntities: true
+# 设置EliteMobs的服务器默认生成点。/em spawntp 将传送至此位置
+defaultSpawnLocation: world,-32.0,104.0,48.0,0.0,0.0
+# 设置EliteMobs是否恢复精英生物炸毁的方块
+doExplosionRegen: true
+# 设置爆炸恢复是否包含容器内容（如箱子）
+# 设为false将阻止精英爆炸摧毁容器
+doRegenerateContainers: true
+defaultTransitiveBlockLimiter: 500
+# 设置/em菜单是否仅使用基岩版兼容的库存式菜单界面
+# 注意：玩家仍可通过/em alt命令切换菜单样式
+onlyUseBedrockMenus: false
+# 设置书本菜单页面每行的字符限制
+# 若书本菜单（如任务菜单）出现文字截断可降低此值
+characterLimitForBookMenuPagesV2: 170
+# 设置是否用玻璃板填充菜单空白区域
+# 若使用EliteMobs资源包则不推荐启用
+useGlassToFillMenuEmptySpace: false
+# 设置是否使用unicode格式化EliteMobs资源包
+# 请勿手动修改，安装资源包时会自动设置
+# 仅在需要合并资源包且预期间距可能异常时手动调整
+menuUnicodeFormatting: false
+# 设置玩家执行/em confirm但无待处理命令时的提示信息
+noPendingCommands: '&c你当前没有任何待处理的命令！'
+# 设置发送追踪信息的Boss的追踪提示信息
+trackMessage: 正在追踪$name
+# 设置玩家开启需要更高公会等级的宝箱时的提示信息
+chestLowRankMessage: '&7[EM] &c你的公会等级需要达到$rank&c才能开启此宝箱！'
+# 设置玩家重复开启冷却中的宝箱时的提示信息
+chestCooldownMessage: '&7[EM] &c你最近已经开启过此宝箱！请等待$time！'
+# 设置/em菜单异常时推荐使用/em alt命令的提示信息
+dismissEMMessage: '&8[EliteMobs] &2/elitemobs &f菜单无法使用？尝试&2/elitemobs alt &f切换菜单样式！&c不想再看到此信息？&4/em dismiss'
+# 设置玩家执行/em alt命令时的提示信息
+switchEMStyleMessage: '&8[EliteMobs] &2/elitemobs &f菜单样式已切换！请查看！'
+# 设置玩家开启宝箱但未获得物品时的提示信息
+treasureChestNoDropMessage: '&8[EliteMobs] &c你什么也没得到！下次好运！'
+# 设置玩家追踪已消失Boss时的提示信息
+bossAlreadyGoneMessage: '&c[EliteMobs] 该Boss已消失！'

@@ -1,0 +1,25 @@
+bossType: MINIBOSS
+damageMultiplier: 1.2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+entityType: BLAZE
+followRange: 10
+healthMultiplier: 3.0
+isEnabled: true
+isPersistent: true
+isRegionalBoss: true
+leashRadius: 15.0
+level: 25
+name: $minibossLevel &1Spark
+powers:
+- attack_gravity.yml
+- movement_speed.yml
+spawnCooldown: 4
+spawnLocations:
+- em_sewer_maze,-150.5,100.5,-64.5,0.0,0.0:0
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1

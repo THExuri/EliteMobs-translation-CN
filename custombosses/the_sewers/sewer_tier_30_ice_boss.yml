@@ -1,0 +1,31 @@
+boots: IRON_BOOTS
+bossType: MINIBOSS
+chestplate: IRON_CHESTPLATE
+damageMultiplier: 1.4
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+entityType: STRAY
+followRange: 14
+healthMultiplier: 4.0
+helmet: IRON_HELMET
+isBaby: false
+isEnabled: true
+isRegionalBoss: true
+leashRadius: 17
+leggings: IRON_LEGGINGS
+level: 27
+mainHand: BOW
+name: $minibossLevel &2Ice Wraith
+powers:
+- movement_speed.yml
+- attack_freeze.yml
+- moonwalk.yml
+spawnCooldown: 30
+spawnLocations:
+- em_sewer_maze,-191.9761542184153,99.2,-213.15663017042223,-358.72626,3.45013:1609850735377
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1

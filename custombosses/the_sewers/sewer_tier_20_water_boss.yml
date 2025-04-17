@@ -1,0 +1,27 @@
+bossType: MINIBOSS
+damageMultiplier: 1.4
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+entityType: SKELETON
+followRange: 10
+healthMultiplier: 4.0
+helmet: GOLDEN_HELMET
+isEnabled: true
+isPersistent: true
+isRegionalBoss: true
+leashRadius: 20.0
+level: 25
+mainHand: BOW
+name: $minibossLevel &1Forgotten Hero
+powers:
+- attack_fire.yml
+- skeleton_tracking_arrow.yml
+spawnCooldown: 4
+spawnLocations:
+- em_sewer_maze,-313.5,99.5,-159.5,0.0,0.0:0
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1

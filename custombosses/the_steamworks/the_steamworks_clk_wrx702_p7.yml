@@ -1,0 +1,85 @@
+bossType: BOSS
+damageMultiplier: 1.6
+disguise: IRON_GOLEM
+dropsEliteMobsLoot: true
+dropsRandomLoot: false
+dropsVanillaLoot: false
+eliteScript:
+  ActivateSlowFall:
+    Actions:
+    - Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+      action: MESSAGE
+      sValue: '&b[CLK-WRx702] &fActivating platform slow-fall barriers. Duration,
+        2 MINUTES.'
+    - Target:
+        targetType: ZONE_BORDER
+      action: POTION_EFFECT
+      amplifier: 3
+      duration: 250
+      potionEffectType: SLOW_FALLING
+      repeatEvery: 1
+      times: 2400
+    - Target:
+        targetType: ZONE_BORDER
+      action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+        speed: 0.1
+      repeatEvery: 20
+      times: 120
+      wait: 60
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      Target:
+        offset: 0,-1,0
+        targetType: SELF_SPAWN
+        track: false
+      borderRadius: 22
+      height: 3
+      radius: 31
+      shape: CYLINDER
+  Say:
+    Actions:
+    - Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+      action: MESSAGE
+      sValue: '&b[CLK-WRx702] &fCritical damage detected. Switching to overdrive mode.
+        Activating photon ray.'
+    Events:
+    - ElitePhaseSwitchEvent
+entityType: RAVAGER
+followDistance: 30
+healthMultiplier: 10
+isEnabled: true
+isRegionalBoss: false
+leashRadius: 30
+level: 140
+movementSpeedAttribute: 0.38
+name: $bossLevel &bCLK-WRx702
+powers:
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- shield_wall.yml
+- photon_ray.yml
+- movement_speed.yml
+- attack_push.yml
+uniqueLootList:
+- chance: 0.05
+  filename: the_steamworks_boss_charm.yml
+- chance: 0.05
+  filename: the_steamworks_boss_drop_axe_dps.yml
+- chance: 0.05
+  filename: the_steamworks_boss_drop_boots_dps.yml
+- chance: 0.05
+  filename: the_steamworks_boss_drop_chestplate_tank.yml
+- chance: 0.05
+  filename: the_steamworks_boss_drop_crossbow_tank.yml
+- chance: 0.05
+  filename: the_steamworks_boss_drop_helmet_dps.yml
+- chance: 0.05
+  filename: the_steamworks_boss_drop_leggings_tank.yml

@@ -1,0 +1,111 @@
+# 设置任务是否需要返回任务发布者处才能完成
+requireQuestTurnIn: true
+# 设置接受任务时发送的消息
+questJoinMessage: '&a你已接受任务 $questName &a！'
+# 设置放弃任务时发送的消息
+questLeaveMessage: '&c你已放弃任务 $questName &c！'
+# 设置完成任务时发送的消息
+questCompleteMessage: '&2你完成了任务 $questName &2！'
+# 设置玩家无激活任务时尝试放弃任务的提示
+leaveWhenNoActiveQuestsExist: '&c你当前没有进行中的任务！'
+# 设置放弃任务时的确认提示消息
+questLeaveConfirmationMessage: '&c确认要放弃当前任务吗？输入 &a/em confirm &c来确认操作！'
+# 设置部分任务相关消息是否使用标题代替聊天消息
+useQuestAcceptTitles: true
+# 设置玩家开始任务时显示的标题
+questStartTitle: '&a任务已接受！'
+# 设置玩家开始任务时显示的副标题
+questStartSubtitle: $questName
+# 设置完成任务时是否显示标题
+useQuestCompleteTitles: true
+# 设置玩家完成任务时显示的标题
+questCompleteTitle: '&2任务已完成！'
+# 设置玩家完成任务时显示的副标题
+questCompleteSubtitle: $questName
+# 设置放弃任务时是否显示标题
+useQuestLeaveTitles: true
+# 设置玩家放弃任务时显示的标题
+questLeaveTitle: '&c任务已放弃！'
+# 设置玩家放弃任务时显示的副标题
+questLeaveSubtitle: $questName
+# 设置是否在聊天栏发送任务目标进度更新
+doQuestChatProgression: true
+# 设置进行中任务目标文字颜色代码
+ongoingQuestColorCode: '&2'
+# 设置击杀类任务进度消息格式
+killQuestChatProgressionMessage: '&8[EliteMobs]&c➤击杀 $name:$color$current&0/$color$target'
+# 设置收集类任务进度消息格式
+fetchQuestChatProgressionMessage: '&8[EliteMobs]&c➤收集 $name:$color$current&0/$color$target'
+# 设置对话类任务进度消息格式
+dialogQuestChatProgressionMessage: '&8[EliteMobs]&c➤与 $name 对话:$color$current&0/$color$target'
+# 设置玩家可同时接受的最大任务数量
+maximumActiveQuests: 10
+# 设置玩家超过任务上限时尝试接任务的提示
+questCapMessage: '&8[EliteMobs] &c已达到最大进行中任务数量（10）！&4请先完成或放弃至少一个任务！'
+# 设置是否使用计分板显示任务进度
+useQuestScoreboards: true
+# 设置计分板击杀类任务进度格式
+killQuestScoreboardProgressionMessage: '&c➤击杀 $name:$color$current&0/$color$target'
+# 设置计分板收集类任务进度格式
+fetchQuestScoreboardProgressionMessage: '&c➤收集 $name:$color$current&0/$color$target'
+# 设置计分板对话类任务进度格式
+dialogQuestScoreboardProgressionMessage: '&c➤与 $name 对话:$color$current&0/$color$target'
+questEntityTypes:
+- BLAZE
+- CAVE_SPIDER
+- DROWNED
+- ELDER_GUARDIAN
+- ENDERMAN
+- ENDERMITE
+- EVOKER
+- GHAST
+- GUARDIAN
+- HUSK
+- ILLUSIONER
+- IRON_GOLEM
+- PILLAGER
+- RAVAGER
+- SILVERFISH
+- SKELETON
+- SPIDER
+- STRAY
+- VINDICATOR
+- WITCH
+- WITHER_SKELETON
+- WOLF
+- ZOMBIE
+- HOGLIN
+- ZOGLIN
+- PIGLIN_BRUTE
+- PIGLIN
+- ZOMBIFIED_PIGLIN
+# 设置激活任务追踪的点击提示消息
+chatTrackMessage: '&8[EliteMobs]&2 点击此处追踪任务！'
+# 设置任务追踪消息的悬停提示
+chatTrackHover: '&2点击开始追踪！'
+# 设置点击追踪消息时执行的命令（不建议修改）
+chatTrackCommand: /elitemobs quest track $questID
+# 设置激活任务追踪时的提示消息
+chatTrackingMessage: '&8[EliteMobs]&9 已开启任务追踪！'
+# 设置任务追踪激活消息的悬停提示
+chatTrackingHover: '&2点击切换追踪状态！使用 /em -> 任务 可追踪其他任务'
+# 设置点击追踪激活消息时执行的命令（不建议修改）
+chatTrackingCommand: /elitemobs quest track $questID
+# 设置接受任务时是否自动开始追踪
+autoTrackQuestsOnAccept: true
+# 设置找不到任务目标位置时的提示
+noQuestDestinationFound: '[EM] 未找到任务目标位置！'
+# 设置任务目标位于其他世界时的提示
+questDestinationInOtherWorld: '[EM] 请前往世界 $world！'
+# 设置尝试接受已完成任务时的提示
+questAlreadyCompletedMessage: '&8[EliteMobs] &c该任务已完成！'
+# 设置无权限接受任务时的提示
+questPrerequisitesMissingMessage: '&8[EliteMobs] &c当前无法接受此NPC的任务！'
+# 设置公会等级不足时的动态任务警告
+lowRankDynamicQuestWarning: '&8[EliteMobs] &c当前公会等级无法接取！请提升公会等级后重试'
+# 设置任务交付目标的格式
+questTurnInObjective: '&a2与 $npcName 对话'
+# 设置基岩版菜单单行最大字符数
+horizontalCharacterLimitBedrockMenu: 30
+# 设置基岩版菜单单个条目最大字符数（超出将创建新条目）
+itemEntryCharacterLimitBedrockMenu: 300

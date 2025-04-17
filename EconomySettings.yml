@@ -1,0 +1,200 @@
+# 设置是否启用EliteMobs经济系统（包含精英硬币、装备交易、公会升级等功能，禁用将导致插件进度失效）
+enableEconomy: true
+# 设置物品转售价值百分比（5表示原价的5%）
+itemResaleValue: 5.0
+# 设置游戏内货币名称
+currencyName: 精英硬币
+# 设置是否集成Vault（强烈不推荐！原因详见：https://github.com/MagmaGuy/EliteMobs/wiki/%5BThird-party-support%5D-Vault）
+useVault - not recommended: false
+# 设置精英怪是否根据等级掉落硬币
+enableCurrencyShower: true
+# 设置硬币掉落的层级倍率
+currencyShowerTierMultiplier: 1.0
+# 设置玩家拾取硬币时的聊天栏提示
+chatCurrencyShowerMessage: '&7[EM] 你拾取了 &a$amount $currency_name!'
+# 设置玩家拾取硬币时的动作栏提示
+actionbarCurrencyShowerMessage: '&7[EM] 拾取 &a$amount $currency_name!'
+# 设置新手引导提示消息（用于教学目的）
+adventurersGuildNotificationMessages: '&7[EM] 有闲钱？试试 &a/ag !'
+# 设置玩家间货币交易税率（强烈推荐开启以平衡高等级玩家通过他人绕过声望重置）
+playerToPlayerPaymentTaxes: 0.2
+# 设置玩家转账成功提示（发送方）
+Economy pay message v2: '&2你向 $receiver&2 支付了 &2$amount_sent $currency_name，扣除税费后对方收到 $amount_received!'
+# 设置转账后余额提示
+Economy currency left message: 当前余额 &2$amount_left $currency_name
+# 设置收款提示消息（接收方）
+Economy money from payment message: 你收到 $sender 转账的 &2$amount_received $currency_name
+# 设置余额不足转账失败提示
+Economy payment insufficient currency: '&c你的$currency_name不足!'
+# 设置/em balance命令显示消息
+Wallet command message: 当前钱包余额 &2$balance $currency_name
+# 设置转账税费确认提示
+Tax confirmation message: '&c转账将扣除$percentage%税费 &a输入&9$command &a确认操作!'
+# 设置商店购买成功提示
+Shop buy message: '&a你花费 $item_value $currency_name 购买了 $item_name!'
+# 设置商店交互时余额显示
+Shop current balance message: '&a当前余额 $currency_amount $currency_name.'
+# 设置余额不足购买提示
+Shop insufficient funds message: '&c$currency_name不足!'
+# 设置商品价格补充提示
+Shop item cost message: 该商品售价 &c$item_value $currency_name
+# 设置出售物品成功提示
+Shop sell message: '&a你出售 $item_name 获得了 $currency_amount $currency_name!'
+# 设置出售非绑定物品警告
+Shop sale player items warning: '&c只能出售灵魂绑定的专属物品（不同声望层级的物品无法出售）!'
+# 设置出售非EliteMobs物品提示
+Shop sale instructions: '&c仅限出售EliteMobs战利品（带有价值描述的精英护甲/武器）!'
+# 设置批量出售成功提示
+shopBatchSellItem: '&a批量出售获得 $currency_amount $currency_name!'
+# 设置不同面额硬币的掉落材质
+lootShowerMaterial:
+  # 1硬币材质
+  '1': GOLD_NUGGET
+  # 5硬币材质
+  '5': GOLD_INGOT
+  # 10硬币材质
+  '10': GOLD_BLOCK
+  # 20硬币材质
+  '20': EMERALD
+  # 50硬币材质
+  '50': EMERALD_BLOCK
+  # 100硬币材质
+  '100': DIAMOND
+  # 500硬币材质
+  '500': DIAMOND_BLOCK
+  # 1000硬币材质
+  '1000': NETHER_STAR
+# 设置不同面额硬币的自定义模型ID（配合资源包使用）
+lootShowerData:
+  '1': 1
+  '5': 1
+  '10': 1
+  '20': 1
+  '50': 1
+  '100': 1
+  '500': 1
+  '1000': 1
+# 设置各类材料的基准价值
+materialWorth:
+  # 钻石斧价值
+  DIAMOND_AXE: 17.0
+  # 钻石靴子价值
+  DIAMOND_BOOTS: 17.0
+  # 钻石胸甲价值
+  DIAMOND_CHESTPLATE: 17.0
+  # 钻石护腿价值
+  DIAMOND_LEGGINGS: 17.0
+  # 钻石头盔价值
+  DIAMOND_HELMET: 17.0
+  # 钻石镐价值
+  DIAMOND_PICKAXE: 17.0
+  # 钻石锹价值
+  DIAMOND_SHOVEL: 17.0
+  # 钻石剑价值
+  DIAMOND_SWORD: 17.0
+  # 钻石锄价值
+  DIAMOND_HOE: 17.0
+  # 铁斧价值
+  IRON_AXE: 16.0
+  # 铁靴价值
+  IRON_BOOTS: 16.0
+  # 铁护腿价值
+  IRON_LEGGINGS: 16.0
+  # 铁胸甲价值
+  IRON_CHESTPLATE: 16.0
+  # 铁头盔价值
+  IRON_HELMET: 16.0
+  # 铁镐价值
+  IRON_PICKAXE: 16.0
+  # 铁锹价值
+  IRON_SHOVEL: 16.0
+  # 铁锄价值
+  IRON_HOE: 16.0
+  # 铁剑价值
+  IRON_SWORD: 16.0
+  # 盾牌价值
+  SHIELD: 16.0
+  # 弓价值
+  BOW: 16.0
+  # 锁链靴价值
+  CHAINMAIL_BOOTS: 15.0
+  # 锁链护腿价值
+  CHAINMAIL_LEGGINGS: 15.0
+  # 锁链胸甲价值
+  CHAINMAIL_CHESTPLATE: 15.0
+  # 锁链头盔价值
+  CHAINMAIL_HELMET: 15.0
+  # 石剑价值
+  STONE_SWORD: 15.0
+  # 石斧价值
+  STONE_AXE: 15.0
+  # 石镐价值
+  STONE_PICKAXE: 15.0
+  # 石锹价值
+  STONE_SHOVEL: 15.0
+  # 石锄价值
+  STONE_HOE: 15.0
+  # 金斧价值
+  GOLDEN_AXE: 13.0
+  # 金靴价值
+  GOLDEN_BOOTS: 13.0
+  # 金护腿价值
+  GOLDEN_LEGGINGS: 13.0
+  # 金胸甲价值
+  GOLDEN_CHESTPLATE: 13.0
+  # 金头盔价值
+  GOLDEN_HELMET: 13.0
+  # 金剑价值
+  GOLDEN_SWORD: 13.0
+  # 金锹价值
+  GOLDEN_SHOVEL: 13.0
+  # 金镐价值
+  GOLDEN_PICKAXE: 13.0
+  # 金锄价值
+  GOLDEN_HOE: 13.0
+  # 金苹果价值
+  GOLDEN_APPLE: 17.0
+  # 附魔金苹果价值
+  ENCHANTED_GOLDEN_APPLE: 17.0
+  # 皮革靴价值
+  LEATHER_BOOTS: 13.0
+  # 皮革护腿价值
+  LEATHER_LEGGINGS: 13.0
+  # 皮革胸甲价值
+  LEATHER_CHESTPLATE: 13.0
+  # 皮革头盔价值
+  LEATHER_HELMET: 13.0
+  # 木剑价值
+  WOODEN_SWORD: 13.0
+  # 木斧价值
+  WOODEN_AXE: 13.0
+  # 木锄价值
+  WOODEN_HOE: 13.0
+  # 木镐价值
+  WOODEN_PICKAXE: 13.0
+  # 三叉戟价值
+  TRIDENT: 17.0
+  # 鞘翅价值
+  ELYTRA: 17.0
+  # 海龟壳价值
+  TURTLE_HELMET: 13.0
+  # 下界合金斧价值
+  NETHERITE_AXE: 18.0
+  # 下界合金镐价值
+  NETHERITE_PICKAXE: 18.0
+  # 下界合金锹价值
+  NETHERITE_SHOVEL: 18.0
+  # 下界合金锄价值
+  NETHERITE_HOE: 18.0
+  # 下界合金剑价值
+  NETHERITE_SWORD: 18.0
+  # 下界合金头盔价值
+  NETHERITE_HELMET: 18.0
+  # 下界合金胸甲价值
+  NETHERITE_CHESTPLATE: 18.0
+  # 下界合金护腿价值
+  NETHERITE_LEGGINGS: 18.0
+  # 下界合金靴价值
+  NETHERITE_BOOTS: 18.0
+  # 未定义材料的默认价值
+  defaultMaterialWorth: 1.0

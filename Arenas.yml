@@ -1,0 +1,42 @@
+# 当玩家数量不足以启动竞技场时显示的信息
+notEnoughPlayersMessage: '&8[EliteMobs] &c需要至少$amount名玩家开始比赛！'
+# 竞技场开始时的标题显示
+startingMessage: '&2开始！'
+# 竞技场开始时的副标题显示
+startingSubtitle: '&2倒计时$count...'
+# 竞技场满员时显示的信息
+arenaFullMessage: '&4[EliteMobs] &c竞技场已满！您可以在等待期间以旁观者身份观战！'
+# 玩家尝试加入进行中的竞技场时显示的信息
+arenasOngoingMessage: '&4[EliteMobs] &c无法立即加入竞技场 - 当前正在比赛中！您可以在等待期间以旁观者身份观战！'
+# 玩家以玩家身份加入后提示如何启动竞技场的信息
+instanceStartHintMessage: '&2[EliteMobs] &a可通过&2/em start&a命令启动副本'
+# 提示玩家如何退出竞技场的信息
+instanceQuitHintMessage: '&4[EliteMobs] &c可通过&4/em quit&c命令退出副本'
+# 玩家加入竞技场时显示的多行信息
+arenaJoinPlayerMessage: "&2[EliteMobs] &a当竞技场内有至少&2$count&a名玩家时，可使用&2/em start&a启动！\n使用&c/em quit&a可随时退出"
+# 旁观者加入竞技场时显示的退出提示
+arenaJoinSpectatorMessage: '&2[EliteMobs] &a可随时使用&2/em quit&a退出观战'
+# 波次开始时的标题显示
+waveTitle: '&a第&2$wave&a波'
+# 波次开始时的副标题显示（空值保留）
+waveSubtitle: ''
+# 完成竞技场时的胜利标题
+victoryTitle: '&2胜利！'
+# 完成竞技场时的胜利副标题
+victorySubtitle: '&a成功通关&2$wave&a波！'
+# 竞技场失败时的标题显示
+defeatTitle: '&4失败！'
+# 竞技场失败时的副标题显示
+defeatSubtitle: '&c止步于第&4$wave&c波'
+# 玩家通关竞技场时的全服广播
+victoryBroadcast: 竞技场$arenaName已被$players征服！
+# 玩家加入竞技场时的标题提示
+joinPlayerTitle: '&a使用&2/em start&a开始！'
+# 玩家加入竞技场时的副标题提示
+joinPlayerSubtitle: '&c使用&4/em quit&c退出！'
+# 旁观者加入竞技场时的标题提示
+joinSpectatorTitle: '&a正在观战！'
+# 旁观者加入竞技场时的副标题提示
+joinSpectatorSubtitle: '&c使用&4/em quit&c退出！'
+# 玩家无权限进入竞技场时的提示信息
+noArenaPermissionMessage: '[EliteMobs] 您没有进入此竞技场的权限！'

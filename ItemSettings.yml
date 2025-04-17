@@ -1,0 +1,136 @@
+# 设置是否掉落EliteMobs战利品（包含精英硬币、定制物品、程序生成物品等全部内容，不推荐关闭，否则将导致MMORPG进度系统失效）
+doEliteMobsLoot: true
+# 设置程序生成战利品是否根据品质显示不同颜色（MMORPG风格）
+doMMORPGColorsForItems: true
+# 设置是否禁止放置定制物品（如旗帜/方块）。建议开启——放置的定制物品会损坏且无法恢复！
+preventCustomItemPlacement: true
+# 设置EliteMobs物品的Lore格式（可用占位符详见下方注释）
+# 可用占位符：
+# $itemLevel=物品等级；$prestigeLevel=声望等级；$weaponOrArmorStats=显示武器DPS或护甲值
+# $soulbindInfo=灵魂绑定信息；$itemSource=物品来源（如怪物/商店）
+# $ifLore=仅当物品有自定义Lore时显示该行；$customLore=显示全部自定义Lore
+# $ifEnchantments=仅当有附魔时显示；$enchantments=显示附魔；$eliteEnchantments=显示精英附魔
+# $ifCustomEnchantments=显示自定义附魔；$customEnchantments=自定义附魔内容
+# $ifPotionEffects=仅当有药水效果时显示；$potionEffects=药水效果
+# $loreResaleValue=显示物品价值（根据查看场景显示购买/出售价）
+itemLoreStructureV2:
+- §7§m§l---------§7<§l装备信息§7>§m§l---------
+- '§7物品等级: §f$itemLevel §7声望 §6$prestigeLevel'
+- $weaponOrArmorStats
+- $soulbindInfo
+- $itemSource
+- $ifLore§7§m§l-----------§7< §f§l描述§7 >§m§l-----------
+- $customLore
+- $ifEnchantments§7§m§l--------§7<§9§l附魔§7>§m§l--------
+- $enchantments
+- $eliteEnchantments
+- $ifCustomEnchantments§7§m§l------§7< §3§l自定义附魔§7 >§m§l------
+- $customEnchantments
+- $ifPotionEffects§7§m§l----------§7< §5§l效果§7 >§m§l----------
+- $potionEffect
+- §7§l§m-----------------------------
+- $loreResaleValue
+# 设置商店购买物品的来源描述
+shopSourceItemLores: '&7从商店购买'
+# 设置BOSS掉落物品的来源描述
+mobSourceItemLores: '&7从$mob处掠夺'
+# 设置物品基础价值描述
+loreWorths: '&7价值$worth$currencyName'
+# 设置物品转售价值描述
+loreResaleValues: '&7回收价$resale$currencyName'
+# 设置精英怪掉落精英物品的基础概率
+flatDropRateV3: 0.2
+# 设置区域BOSS掉落非专属物品的概率
+regionalBossNonUniqueDropRate: 0.05
+# 设置区域BOSS是否掉落原版战利品
+regionalBossesDropVanillaLoot: false
+# 设置BOSS等级对掉落率的加成系数（当前版本建议保持0.0）
+levelIncreaseDropRateV2: 0.0
+# 设置程序生成物品的权重概率（需了解加权概率机制）
+proceduralItemDropWeight: 90.0
+# 设置加权物品（如护符）的相对掉落权重
+weighedItemDropWeight: 1.0
+# 设置固定物品（无等级缩放）的掉落权重
+fixedItemDropWeight: 10.0
+# 设置限定等级物品的掉落权重
+limitedItemDropWeight: 3.0
+# 设置可缩放等级物品的掉落权重（插件中最常见的类型）
+scalableItemDropWeight: 6.0
+# 设置基于怪物等级的原版战利品倍率
+defaultLootMultiplier: 0.0
+# 设置原版战利品倍率的最大生效等级
+levelCapForDefaultLootMultiplier: 200
+# 设置基于BOSS等级的MC原版经验掉落倍率
+defaultExperienceMultiplier: 1.0
+# 设置EliteMobs掉落物品的最高等级（强烈建议保持200）
+maximumItemLevel: 200
+# 设置是否启用精英附魔（突破原版附魔等级限制，仅对EliteMobs生物生效，避免影响PVP平衡）
+useEliteEnchantments: true
+# 设置物品Lore中精英附魔的显示名称
+eliteEnchantmentLoreStrings: 精英
+# 设置锄头是否参与武器伤害计算
+useHoesAsWeapons: false
+# 设置高品质掉落物是否显示特殊粒子效果
+enableRareItemParticleEffects: true
+# 设置物品Lore中"对目标施加药水效果"的标识符号
+potionEffectOnHitTargetLore: '&4⚔☠'
+# 设置物品Lore中"对自身施加药水效果"的标识符号
+potionEffectOnHitSelfLore: '&9⚔🛡'
+# 设置物品Lore中"持续生效药水效果"的标识符号
+potionEffectContinuousLore: '&6⟲'
+# 设置精英附魔在Lore中的前缀颜色
+eliteEnchantmentLoreColor: '&9◇'
+# 设置原版附魔在Lore中的前缀颜色
+vanillaEnchantmentLoreColor: '&7◇'
+# 设置自定义附魔在Lore中的前缀颜色
+customEnchantmentColor: '&3◇'
+# 设置药水效果在Lore中的前缀颜色
+potionEffectLoreColor: '&5◇'
+# 设置未灵魂绑定物品的提示文本
+noSoulbindLore: '&7未灵魂绑定!'
+# 设置是否禁止附魔精英物品（推荐开启以保持插件附魔系统平衡）
+preventEliteItemEnchantment: true
+# 设置是否禁止祛魔精英物品
+preventEliteItemDisenchantment: true
+# 设置尝试祛魔精英物品时的提示信息
+preventEliteItemDisenchantmentMessage: '&c[EliteMobs] 无法祛魔精英物品!'
+# 设置是否禁止将钻石精英物品升级为下界合金（不推荐允许）
+preventEliteItemDiamondToNetheriteUpgrade: true
+# 设置精英物品是否仅在死亡时损耗耐久（强烈推荐开启，高等级战斗必备机制）
+eliteItemsDurabilityLossOnlyOnDeath: true
+# 设置死亡耐久损耗倍率（0.0-1.0降低损耗，>1.0增加损耗）
+eliteItemsDurabilityLossMultiplier: 1.0
+# 设置物品分解成功提示
+scrapSucceededMessageV2: '&8[EliteMobs] &2成功分解$amount次!'
+# 设置物品分解失败提示
+scrapFailedMessageV2: '&8[EliteMobs] &c分解失败$amount次!'
+# 设置战利品是否直接进入玩家背包
+putLootDirectlyIntoPlayerInventory: false
+# 设置玩家装备与BOSS等级最大差值锁（例：设置为10且玩家装备50级时，无法刷39级BOSS）
+lootLevelDifferenceLockout: 10
+# 设置是否防止精英物品完全损坏（耐久耗尽仍可保留，但无法使用）
+preventEliteItemsFromBreaking: true
+# 设置护甲耐久过低丢弃提示
+lowDurabilityItemDropMessage: '&8[EliteMobs] &c因耐久度过低丢弃护甲！&8请使用碎片找NPC修复！'
+# 设置武器耐久过低丢弃提示
+lowWeaponItemDropMessage: '&8[EliteMobs] &c因耐久度过低丢弃武器！&8请使用碎片找NPC修复！'
+# 设置程序生成钻石装备的最低BOSS等级（+7级生效，EliteMobs无程序生成下界合金装备）
+minimumProcedurallyGeneratedDiamondLootLevelPlusSeven: 10
+# 设置/simloot命令成功提示
+simlootMessageSuccess: '&8[EliteMobs] &2成功获得$itemName &2!'
+# 设置/simloot命令失败提示
+simlootMessageFailure: '&8[EliteMobs] &c未获得任何战利品!'
+# 设置精英战利品直入背包提示
+directDropCustomLootMessage: '&8[EliteMobs] &2获得$itemName &2!'
+# 设置原版战利品直入背包提示
+directDropMinecraftLootMessage: '&8[EliteMobs] &a获得$itemName &a!'
+# 设置硬币直入背包提示
+directDropCoinMessage: '&8[EliteMobs] &a获得&2$amount$currencyName &a!'
+# 设置是否隐藏原版属性提示
+hideItemAttributes: true
+# 设置武器Lore中的DPS条目（$EDPS=每秒伤害）
+weaponEntry: '&7精英DPS: &2$EDPS'
+# 设置护甲Lore中的防御条目（$EDEF=防御值）
+armorEntry: '&7精英护甲: &2$EDEF'
+# 设置装备与BOSS等级差异过大无法获取硬币提示
+levelRangeTooDifferent: '&8[EM] &4你的装备等级$playerLevel与BOSS等级$bossLevel差距过大，无法获取硬币!'

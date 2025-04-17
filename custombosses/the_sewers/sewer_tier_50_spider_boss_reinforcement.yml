@@ -1,0 +1,11 @@
+bossType: REINFORCEMENT
+damageMultiplier: 0.6
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+entityType: CAVE_SPIDER
+healthMultiplier: 0.25
+isBaby: true
+isEnabled: true
+isPersistent: false
+level: 31
+name: $reinforcementLevel &2Spiderling
