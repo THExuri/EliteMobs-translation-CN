@@ -8089,7 +8089,7 @@ combat_instructor:
   - 环绕物为\n鞘翅：使玩家飘浮
   - 环绕物为\n绿宝石：中毒
   - 环绕物为\n活塞：推开玩家
-  - 环绕物为\n不死图腾：虚弱玩家
+  - 环绕物为\n不死图腾：复活玩家
   - 环绕物为\n蜘蛛网：结网
   - 环绕物为\n头颅：凋零
   - 环绕物为\n箱子：掉落特殊战利品
@@ -14777,14 +14777,14 @@ the_castle_ser_prancelot_p2:
   - 不痛不痒！
   - 打得好！
 shadow_of_binder_of_worlds_drop_boots:
-  name: '&5暗影胫甲'
+  name: '&5暗影之靴'
   lore:
   - '&5这是具象化的漩涡暗影'
   - '&5阴影覆盖你的腿足却毫无触感'
   - '&5唯有踏足柔软土地的'
   - '&5沉闷知觉'
 shadow_of_binder_of_worlds_drop_chestplate:
-  name: '&5暗影链甲'
+  name: '&5暗影胸甲'
   lore:
   - '&5这是具象化的漩涡暗影'
   - '&5永不可触及之物'
