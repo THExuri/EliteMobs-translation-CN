@@ -1,11 +1,11 @@
 isEnabled: true
-shopName: '[EM] Repair menu!'
+shopName: '[EM] 修复菜单'
 infoButton:
   material: PLAYER_HEAD
-  name: '&4&lEliteMobs &r&cby &4&lMagmaGuy'
+  name: '&4&l精英怪物 &r&c作者 &4&lMagmaGuy'
   lore:
-  - '&8Support the plugins you enjoy!'
-  - '&aUse scrap to repair elite items!'
+  - '&8请支持您喜爱的插件！'
+  - '&a使用碎料修复精英物品！'
   owner: magmaguy
   customModelID: 31173
 infoButtonSlot: 4
@@ -13,37 +13,37 @@ eliteItemInputInformationSlot: 20
 eliteItemInputSlot: 29
 eliteItemInputInformationButton:
   material: GREEN_BANNER
-  name: §2 Elite Item Input slots
+  name: §2精英物品输入槽位
   lore:
-  - §aThis slot is for your elite item!
+  - §a此槽位用于放置精英物品！
   customModelID: 31173
 eliteScrapInputInformationSlot: 22
 eliteScrapInputSlot: 31
 eliteScrapInputInformationButton:
   material: GREEN_BANNER
-  name: §2Elite Scrap Input slots
+  name: §2精英碎料输入槽位
   lore:
-  - §aThis slot is for your elite scrap!
+  - §a此槽位用于放置精英碎料！
   customModelID: 31173
 informationOutputButtonSlot: 24
 outputSlot: 33
 cancelButton:
   material: BARRIER
-  name: §4Cancel
+  name: §4取消
   lore:
-  - §cCancel repair!
+  - §c取消修复！
   customModelID: 31173
 outputInformationButton:
   material: RED_BANNER
-  name: §2Output slots
+  name: §2输出槽位
   lore:
-  - §aThis slot previews the result of your repair!
+  - §a此槽位预览修复结果！
   customModelID: 31173
 cancelButtonSlot: 27
 confirmButton:
   material: EMERALD
-  name: §2Confirm!
+  name: §2确认！
   lore:
-  - §aRepair item!
+  - §a执行修复！
   customModelID: 31174
 confirmRepairSlot: 35

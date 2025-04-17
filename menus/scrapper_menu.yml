@@ -1,16 +1,16 @@
 isEnabled: true
-shopName: '[EM] Scrapper'
+shopName: '[EM] 分解台'
 infoButton:
   material: PLAYER_HEAD
-  name: '&4&lEliteMobs &r&cby &4&lMagmaGuy'
+  name: '&4&l精英怪物 &r&c作者 &4&lMagmaGuy'
   lore:
-  - '&8Support the plugins you enjoy!'
-  - '&4Warning!'
-  - '&cItems scrapped here are lost!'
-  - '&cThere is a $chance% chance to get'
-  - '&cscrap when scrapping items!'
-  - '&aUse scrap at the smelter,'
-  - '&arepairman and refiner!'
+  - '&8请支持您喜爱的插件！'
+  - '&4警告！'
+  - '&c此处分解的物品将会消失！'
+  - '&c分解时有$chance%几率获得'
+  - '&c精英碎料！'
+  - '&a碎料可用于熔炉、'
+  - '&a修复师和精炼师处！'
   owner: magmaguy
   customModelID: 31173
 infoButtonSlot: 4
@@ -38,17 +38,17 @@ scrapSlots:
 - 43
 cancelButton:
   material: BARRIER
-  name: §4Cancel
+  name: §4取消
   lore:
-  - §cCancel scrap!
+  - §c取消分解！
   customModelID: 31173
 cancelButtonSlot: 27
 confirmButton:
   material: EMERALD
-  name: §2Confirm Scrap
+  name: §2确认分解
   lore:
-  - §aScrap items!
-  - §a$chance% chance of success!
+  - §a分解物品！
+  - §a成功几率$chance%！
   customModelID: 31174
 confirmScrapSlot: 35
 scrapChance: 0.75

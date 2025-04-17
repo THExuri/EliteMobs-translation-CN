@@ -1,41 +1,41 @@
 isEnabled: true
 # Sets the display name of the menu
-menuName: '&6Enchantment Menu'
+menuName: '&6附魔界面'
 # Sets the item slot number of the information button in the chest menu.
 infoSlot: 4
 infoButton:
   material: PLAYER_HEAD
-  name: '&2Enchantment info:'
+  name: '&2附魔信息：'
   lore:
-  - '&2This menu can add enchants to your elite items!'
-  - '&aIn order to enchant your elite item, add your'
-  - '&aelite item and your elite enchanted books!'
-  - '&6Items that already have a lot of enchantments'
-  - '&6(high quality items) have a high chance of failing!'
-  - '&8Normal failure makes you fail to enchant the item.'
-  - '&8Challenge makes you fight a boss for the enchant.'
-  - '&8Critical failures make you lose the item!'
+  - '&2此菜单可以为你的精英物品添加附魔！'
+  - '&a若要附魔精英物品，请放入你的'
+  - '&a精英物品和精英附魔书！'
+  - '&6已具备多个附魔的物品'
+  - '&6(高品质物品) 有较高几率失败！'
+  - '&8普通失败会导致附魔失败。'
+  - '&8挑战失败将需要与Boss战斗来继续附魔。'
+  - '&8严重失败会使你失去该物品！'
   owner: magmaguy
   customModelID: 31173
 # Sets the item slot number of the cancel button in the chest menu.
 cancelSlot: 27
 cancelButton:
   material: BARRIER
-  name: §4Cancel
+  name: §4取消
   lore:
-  - §cCancel repair!
+  - §c取消修复！
   customModelID: 31173
 # Sets the item slot number of the confirm button in the chest menu.
 confirmSlot: 35
 confirmButton:
   material: EMERALD
-  name: §2Enchant!
+  name: §2开始附魔！
   lore:
-  - '§aPrice: $price $currencyName'
-  - '§2Chance of success: $successChance%'
-  - '§cChance of failure: $failureChance%'
-  - '§6Challenge chance: $challengeChance%'
-  - '§4Chance of critical failure: $criticalFailureChance%'
+  - '§a价格: $price $currencyName'
+  - '§2成功几率: $successChance%'
+  - '§c失败几率: $failureChance%'
+  - '§6挑战几率: $challengeChance%'
+  - '§4严重失败几率: $criticalFailureChance%'
   customModelID: 31174
 # Sets the item slot number of the elite item in the chest menu.
 itemSlot: 29
@@ -43,17 +43,17 @@ itemSlot: 29
 itemInfoSlot: 20
 itemInfoButton:
   material: GREEN_BANNER
-  name: §2Elite Item Input slot
+  name: §2精英物品输入栏位
   lore:
-  - §aPut your elite item here!
+  - §a请在此处放入你的精英物品！
   customModelID: 31173
 # Sets the item slot number of the enchanted book info button in the chest menu.
 enchantedBookInfoSlot: 22
 enchantedBookInfoButton:
   material: GREEN_BANNER
-  name: §2Enchanted Book Input slot
+  name: §2附魔书输入栏位
   lore:
-  - §aPut your elite enchanted books here!
+  - §a请在此处放入精英附魔书！
   customModelID: 31173
 # Sets the item slot number of the enchanted book in the chest menu.
 enchantedBookSlot: 31
@@ -62,11 +62,11 @@ luckyTicketSlot: 33
 luckyTicketInfoSlot: 24
 luckyTicketInfoButton:
   material: GREEN_BANNER
-  name: §2Elite Lucky Ticket Input slot
+  name: §2精英幸运券输入栏位
   lore:
-  - §a(Optional) Put your elite lucky tickets here!
-  - §2Increase the odds of the enchantment succeeding
-  - §2by adding an elite lucky ticket!
+  - §a(可选) 请在此处放入精英幸运券！
+  - §2通过添加精英幸运券可提高
+  - §2附魔成功的概率！
   customModelID: 31173
 # Sets the message that appears when a player attempts to enchant an item beyond the configured maximum enchantment level of any enchantment.
-enchantmentLimitMessage: '&c[EliteMobs] Can''t enchant item beyond enchantment limit!'
+enchantmentLimitMessage: '&c[EliteMobs] 无法突破附魔等级限制！'

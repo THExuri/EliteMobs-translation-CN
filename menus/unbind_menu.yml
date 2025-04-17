@@ -1,11 +1,11 @@
 isEnabled: true
-shopName: '[EM] Unbind menu!'
+shopName: '[EM] 解绑菜单'
 infoButton:
   material: PLAYER_HEAD
-  name: '&4&lEliteMobs &r&cby &4&lMagmaGuy'
+  name: '&4&l精英怪物 &r&c作者 &4&lMagmaGuy'
   lore:
-  - '&8Support the plugins you enjoy!'
-  - '&aUse an &5Unbind Scroll &ato remove Soulbind from an item!'
+  - '&8请支持您喜爱的插件！'
+  - '&a使用&5解绑卷轴&a移除物品的灵魂绑定！'
   owner: magmaguy
   customModelID: 31173
 infoButtonSlot: 4
@@ -13,37 +13,37 @@ eliteItemInputInformationSlot: 20
 eliteItemInputSlot: 29
 eliteItemInputInformationButton:
   material: GREEN_BANNER
-  name: §2Elite Item Input slots
+  name: §2精英物品输入槽位
   lore:
-  - §aThis slot is for your elite item!
+  - §a此槽位用于放置精英物品！
   customModelID: 31173
 unbindScrollInputInformationSlot: 22
 unbindScrollInputSlot: 31
 unbindScrollInputInformationButton:
   material: GREEN_BANNER
-  name: §5Unbind Scroll §aInput slots
+  name: §5解绑卷轴§a输入槽位
   lore:
-  - §aThis slot is for your §9Unbind Scroll§a!
+  - §a此槽位用于放置§9解绑卷轴§a！
   customModelID: 31173
 informationOutputButtonSlot: 24
 outputSlot: 33
 cancelButton:
   material: BARRIER
-  name: §4Cancel
+  name: §4取消
   lore:
-  - §cCancel unbind!
+  - §c取消解绑！
   customModelID: 31173
 outputInformationButton:
   material: RED_BANNER
-  name: §2Unbound Item Output slot
+  name: §2解绑物品输出槽位
   lore:
-  - §aThis slot previews the result of your unbind!
+  - §a此槽位预览解绑结果！
   customModelID: 31173
 cancelButtonSlot: 27
 confirmButton:
   material: EMERALD
-  name: §2Confirm!
+  name: §2确认！
   lore:
-  - §aUnbind item!
+  - §a解绑物品！
   customModelID: 31175
 confirmUnbindSlot: 35

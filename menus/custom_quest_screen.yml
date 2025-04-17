@@ -1,29 +1,31 @@
 isEnabled: true
 headerTextLines2: |
   §a§l『§c§l$questName§a§l』
-acceptTextLines: '&a&l[Accept!]'
-acceptHoverLines: "&aClick to \n&aaccept quest!"
+acceptTextLines: '&a&l[接受任务!]'
+acceptHoverLines: |-
+  &a点击
+  &a接受任务！
 acceptCommandLines: /em quest accept $questID
-acceptedTextLines: '&2&lAccepted! &aTurn in with $npcName &4[Abandon]'
-acceptedHoverLines: '&aClick to abandon quest!'
+acceptedTextLines: '&2&l已接受！ &a向$npcName交付 &4[放弃]'
+acceptedHoverLines: '&a点击放弃任务！'
 acceptedCommandLines3: /em quest leave $questID
 useQuestTracking: true
-trackTextLines: '&2&l[Track]'
-trackHoverLines: '&aClick to track quest!'
+trackTextLines: '&2&l[追踪]'
+trackHoverLines: '&a点击追踪任务！'
 trackCommandLines3: /em quest track $questID
-untrackTextLines: '&4&l[Untrack]'
-untrackHoverLines: '&cClick to untrack quest!'
+untrackTextLines: '&4&l[取消追踪]'
+untrackHoverLines: '&c点击取消任务追踪！'
 untrackCommandLines: /em quest track $questID
-completedTextLines: '&2&l[Turn in!]'
-completedHoverLines: '&aClick to turn quest in!'
+completedTextLines: '&2&l[交付！]'
+completedHoverLines: '&a点击交付任务！'
 completedCommandLines: /em quest complete $questID
-turnedInTextLines: '&8[Completed!]'
-turnedInHoverLines: '&8Already turned in!'
-objectivesLine: '&c&lObjectives:'
-killQuestDefaultSummaryLine: '&c➤Kill $name:$color$current&0/$color$target'
-fetchQuestDefaultSummaryLine: '&c➤Get $name:$color&$current&0/$color$target'
-dialogQuestDefaultSummaryLine: '&c➤Go talk to $name $location'
-arenaQuestDefaultSummaryLine: '&c➤Complete $arenaName'
-rewardsLine: '&2&lRewards:'
+turnedInTextLines: '&8[已完成！]'
+turnedInHoverLines: '&8已交付完成！'
+objectivesLine: '&c&l任务目标：'
+killQuestDefaultSummaryLine: '&c➤击杀$name:$color$current&0/$color$target'
+fetchQuestDefaultSummaryLine: '&c➤获取$name:$color$current&0/$color$target'
+dialogQuestDefaultSummaryLine: '&c➤前往与$name对话 $location'
+arenaQuestDefaultSummaryLine: '&c➤完成$arenaName'
+rewardsLine: '&2&l任务奖励：'
 rewardsDefaultSummaryLine: '&2➤$amountx $rewardName &8($chance%)'
 ongoingQuestColorCode: '&2'

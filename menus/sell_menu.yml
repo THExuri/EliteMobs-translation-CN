@@ -1,15 +1,15 @@
 isEnabled: true
-shopName: '[EM] Sell Shop'
+shopName: '[EM] 出售商店'
 infoButton:
   material: PLAYER_HEAD
-  name: '&4&lEliteMobs &r&cby &4&lMagmaGuy'
+  name: '&4&l精英怪物 &r&c作者 &4&lMagmaGuy'
   lore:
-  - '&8Support the plugins you enjoy!'
-  - '&4Warning!'
-  - '&cYou can only sell special'
-  - '&cElite Mobs drops in this'
-  - '&cshop! These should have'
-  - '&ca value on their lore.'
+  - '&8请支持您喜爱的插件！'
+  - '&4警告！'
+  - '&c本商店仅可出售'
+  - '&c精英怪物的特殊掉落物！'
+  - '&c此类物品的描述中应'
+  - '&c包含价值标识'
   owner: magmaguy
   customModelID: 31173
 infoButtonSlot: 4
@@ -37,16 +37,16 @@ sellSlots:
 - 43
 cancelButton:
   material: BARRIER
-  name: §4Cancel
+  name: §4取消
   lore:
-  - §cCancel purchase!
+  - §c取消交易！
   customModelID: 31173
 cancelButtonSlot: 27
 confirmButton:
   material: EMERALD
-  name: §2Confirm Sale
+  name: §2确认出售
   lore:
-  - §aSell item for
-  - §a$currency_amount $currency_name
+  - §a出售物品可获得
+  - §a$currency_amount$currency_name
   customModelID: 31173
 confirmSaleSlot: 35
