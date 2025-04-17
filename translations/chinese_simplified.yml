@@ -4,7 +4,8 @@ config:
   trackMessage: 正在追踪 $name
   chestLowRankMessage: '&7[EM] &c需要至少 $rank &c等级才能开启这个宝箱！'
   chestCooldownMessage: '&7[EM] &c这个宝箱最近已经被开启过了！请等待 $time！'
-  dismissEMMessage: '&8[EliteMobs]  &2/elitemobs &f菜单无法使用？试试 &2/elitemobs alt &f查看替代版本菜单！&c不想再看到这条信息？&4/em dismiss'
+  dismissEMMessage: '&8[EliteMobs]  &2/elitemobs &f菜单无法使用？试试 &2/elitemobs alt &f查看替代版本菜单！&c不想再看到这条信息？&4/em
+    dismiss'
   switchEMStyleMessage: '&8[EliteMobs] &2/elitemobs &f菜单样式已切换！快去看看吧！'
   treasureChestNoDropMessage: '&8[EliteMobs] &c什么都没开到！下次好运！'
   bossAlreadyGoneMessage: '&c[EliteMobs] 该首领已消失！'
@@ -1442,7 +1443,8 @@ translation:
   chestLowRankMessage: '&7[EM] &c你至少要有$rank &c公会等级 才能打开这个箱子！'
   chestCooldownMessage: '&7[EM] &c你最近开过这个箱子了！请等候$time！'
   insufficientCurrencyForWormholeMessage: '&8[EliteMobs] &c精英币不足！ 你需要$amount来使用com.magmaguy.elitemobs.wormhole！'
-  dismissEMMessage: '&8[EliteMobs] &2/elitemobs &fmenu 没用？试试&2/elitemobs alt &f查看另一个版本的菜单吧！&c不想再次看到此消息？请输入&4/em dismiss'
+  dismissEMMessage: '&8[EliteMobs] &2/elitemobs &fmenu 没用？试试&2/elitemobs alt &f查看另一个版本的菜单吧！&c不想再次看到此消息？请输入&4/em
+    dismiss'
   switchEMStyleMessage: '&8[EliteMobs] &f已变更&2/elitemobs &f菜单风格！'
 EconomySettings:
   currencyName: 精英币
@@ -11012,7 +11014,7 @@ travelling_merchant:
   - 狩猎愉快！
 unbinder:
   name: 乌尔菲克
-  role: <解绑者>
+  role: <解绑师>
   greetings:
   - 你好。
   - 你好，我的朋友。
@@ -11038,73 +11040,57 @@ wood_league_arena_master:
 wood_league:
   arenaName: 木头联赛
   arenaMessages:
-  - - null
-    - null
-  - - null
-  - - null
-  - - null
-  - - null
-  - - null
-  - - null
-  - wave=8:message=&8[格拉迪厄斯] &f不错，如果每个敌人都是&c近战&f的如何？
-  - wave=9:message=&8[格拉迪厄斯] &f很好，如果都是&c远程&f怪物呢？
-  - - null
-  - - null
-  - - null
-  - - null
-  - - null
-  - - null
-    - null
-  - - null
-  - - null
-  - - null
-  - - null
-  - - null
-    - null
-  - - null
-  - - null
-  - - null
-  - - null
-  - - null
-  - - null
-  - - null
-    - null
-  - - null
-  - - null
-  - - null
-    - null
-  - - null
-  - - null
-  - - null
-    - null
-  - - null
-    - null
-  - - null
-    - null
-  - - null
-  - - null
-    - null
-  - - null
-  - - null
-    - null
-  - - null
-    - null
-  - - null
-  - - null
-  - - null
-  - wave=44:message=&8[格拉迪厄斯] &f这显然行不通，让我想想办法……
-  - - null
-    - null
-  - - null
-    - null
-  - - null
-  - - null
-  - - null
-  - - null
-    - null
-    - null
-  - - null
-    - null
+  - wave=1:message=&8[角斗士] &f今日重头戏！一位传奇战士远道而来，要挑战全境最凶猛的怪物！不过在此之前，先看新秀大战僵尸。
+  - wave=2:message=&8[角斗士] &f看看这架势，至少还会挥动手臂！刚才只是热身，现在开始加压！
+  - wave=3:message=&8[角斗士] &f觉得自己会战斗？这波&c作弊 &f开始！哈哈哈哈！
+  - wave=4:message=&8[角斗士] &f看来能承受高温！女士们先生们系好安全带，好戏开场！
+  - wave=5:message=&8[角斗士] &f我在外头发现&c怪异生物&f，丢进竞技场肯定有趣！
+  - wave=6:message=&8[角斗士] &f应付小群体还行，&c试试加强版！
+  - wave=7:message=&8[角斗士] &f想真正挑战竞技场？走着瞧...
+  - wave=8:message=&8[角斗士] &f不错，但全是&c近战&f敌人呢？
+  - wave=9:message=&8[角斗士] &f很好，但全是&c远程&f呢？
+  - wave=10:message=&8[角斗士] &f当心！&c恶犬&f误入竞技场！哪来的？
+  - wave=11:message=&8[角斗士] &f已请动物管控处理恶犬，继续战斗！
+  - wave=12:message=&8[角斗士] &f观众要求&c加码&f！满足他们！
+  - wave=13:message=&8[角斗士] &f管理员给怪物加了&2毒药&f！看效果如何...
+  - wave=14:message=&8[角斗士] &f太无聊了！下毒的员工被开除了！下次整点好活！
+  - wave=15:message=&8[角斗士] &f本届&4丑恶猪王&f登场！掌声欢迎&4哼哼先生&f！
+  - wave=16:message=&8[角斗士] &f哼哼先生成培根了！&c粉丝团&f涌入复仇！
+  - wave=17:message=&8[角斗士] &f挑战者自以为能行？试试&c强化版&f敌人！
+  - wave=18:message=&8[角斗士] &f&c击剑社&f和&c射箭社&f对决！看好谁？
+  - wave=19:message=&8[角斗士] &f击剑社表现不佳，看&c射箭社&f的！
+  - wave=20:message=&8[角斗士] &f射箭社也不行！挑战者引起&2僵尸之傲佐尔坦&f注意！
+  - wave=21:message=&8[角斗士] &f难以置信！菜鸟击败佐尔坦！新冠军诞生？
+  - wave=22:message=&8[角斗士] &f观众开始下注！挑战者能走多远？
+  - wave=23:message=&8[角斗士] &f别眨眼！这波敌人带&c凋零&f攻击！
+  - wave=24:message=&8[角斗士] &f知名角斗士陆续登场！敬请期待！
+  - wave=25:message=&8[角斗士] &f北方神射手&b阿格德鲁克&f携&b寒冰&f来袭！
+  - wave=26:message=&8[角斗士] &f精彩战斗！&c虫群&f让我热血沸腾！
+  - wave=27:message=&8[角斗士] &f难度升级！&c箭免僵尸&f和&c冰冻骷髅&f登场！
+  - wave=28:message=&8[角斗士] &f展现&c剑术&f的时候到了！注意步法！
+  - wave=29:message=&8[角斗士] &f来场&c移动靶&f练习！挑战者当靶子！
+  - wave=30:message=&8[角斗士] &f真正冠军登场！&2南方毒蛇&f携&c千种毒药&f来袭！
+  - wave=31:message=&8[角斗士] &f南方毒蛇倒下！观众沸腾！精彩绝伦！
+  - wave=32:message=&8[角斗士] &f管理员动真格了！挑战者能存活吗？
+  - wave=33:message=&8[角斗士] &f敌人拿到毒蛇的&c毒药&f！千万别中招！
+  - wave=34:message=&8[角斗士] &f鲍比，帮我押1000精英币赌他们死...什么？麦克风没关？继续下一波！
+  - wave=35:message=&8[角斗士] &f稀客！&a木联小丑&f带着&2把戏&f登场！
+  - wave=36:message=&8[角斗士] &f精彩表演！为&a小丑&f喝彩！
+  - wave=37:message=&8[角斗士] &f鲍比，我的赌注怎样？什么1万？我说1千！&c提升难度&f！
+  - wave=38:message=&8[角斗士] &f鲍比你要害死我！快放&c剑士&f救场！
+  - wave=39:message=&8[角斗士] &f不退款？我又没...呃，&c弓箭手军团&f来袭！
+  - wave=40:message=&8[角斗士] &f最终手段！召唤最强战士&4诅咒使者克鲁修斯&f！
+  - wave=41:message=&8[角斗士] &f克鲁修斯败了？！世道变了？
+  - wave=42:message=&8[角斗士] &f土豪赞助&2治疗&f！敌人更强了？
+  - wave=43:message=&8[角斗士] &f&c凋零&f、&c剧毒&f、&c火焰&f全上！知道赌注多大吗！
+  - wave=44:message=&8[角斗士] &f不管用了，得想新招...
+  - wave=45:message=&8[角斗士] &f木联顶级角斗士&c千刃&f携&c无尽弹幕&f登场！必须赢！
+  - wave=46:message=&8[角斗士] &f千刃倒了！现在角斗士都不行？&c虫海战术&f！
+  - wave=47:message=&8[角斗士] &f虫海不行就&c加Buff&f！全加上！
+  - wave=48:message=&8[角斗士] &f没招了！只剩&c剑士&f了？
+  - wave=49:message=&8[角斗士] &f破釜沉舟！&c弓箭手&f全军出击！
+  - wave=50:message=&8[角斗士] &f最后手段！木联冠军&4乌瑟尔&f降临！挑战者必败！
+  - wave=51:message=&8[破产角斗士] &f难以置信！乌瑟尔败了！新冠军诞生！要不是负债真想庆祝！
 ag_welcome_quest_0:
   customObjectives:
     Objective1:
